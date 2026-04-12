@@ -9,7 +9,7 @@ from elevenlabs import save
 API_KEY = "sk_cd0366ef71437f6c899da97dfecce1631a86a536ddb7e4aa"
 VOICE_ID = "HaDBcMdLvTIIloqW9jzk"
 MODEL_ID = "eleven_v3"
-INPUT_FILE = "script.txt"
+INPUT_FILE = "interest_script.txt"
 MAIN_OUTPUT_FOLDER = "interest_audio"
 CACHE_FILE = "audio_cache.json"
 

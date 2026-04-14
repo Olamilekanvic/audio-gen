@@ -26,10 +26,13 @@ def get_base_settings(tag):
     elif tag == "firmly": settings.update({"stability": 0.65, "style": 0.3})
     elif tag == "thoughtfully": settings.update({"stability": 0.45, "style": 0.4})
     elif tag == "determinedly": settings.update({"stability": 0.55, "style": 0.5})
+    elif tag == "disbelievingly": settings.update({"stability": 0.35, "style": 0.6})
+    elif tag == "energetic": settings.update({"stability": 0.5, "style": 0.75})
+    elif tag == "authoritatively": settings.update({"stability": 0.75, "style": 0.25})
     return settings
 
 # 3. GENERATION LOOP
-for i, raw_text in enumerate(lines, start=34):
+for i, raw_text in enumerate(lines, start=1):
     line_num = str(i).zfill(3)
     
     # Organize by folder: MAIN_FOLDER/Line_034/files.mp3

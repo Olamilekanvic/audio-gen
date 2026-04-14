@@ -7,8 +7,8 @@ from elevenlabs import save
 API_KEY = "sk_cd0366ef71437f6c899da97dfecce1631a86a536ddb7e4aa"
 VOICE_ID = "HaDBcMdLvTIIloqW9jzk" 
 MODEL_ID = "eleven_v3"
-INPUT_FILE = "script.txt"
-MAIN_OUTPUT_FOLDER = "pennywise_finance_project"
+INPUT_FILE = "compound_int.txt"
+MAIN_OUTPUT_FOLDER = "compound_interest_audio"
 
 client = ElevenLabs(api_key=API_KEY)
 
